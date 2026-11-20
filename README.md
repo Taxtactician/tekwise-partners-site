@@ -23,3 +23,11 @@ Turn on **Enforce HTTPS** once the certificate is issued.
 ## Editing
 - Change colors in the `:root` block at the top of `css/style.css`.
 - The header and footer are repeated in each page; update both files when changing them.
+
+## SEO files
+- `robots.txt`, `sitemap.xml` — for search engines (submit the sitemap in Google Search Console)
+- `llms.txt` — plain-language summary of the business for AI assistants and AI search
+- `img/og-image.png` — the preview image shown when the site is shared on social media or by text
+- Each page has a title, meta description, canonical URL, social preview tags and schema.org structured data (JSON-LD)
+
+All of these use `https://tekwisepartners.com`. If the site lives at a different address, find and replace that domain across the repo, and update `lastmod` dates in `sitemap.xml` when pages change.
