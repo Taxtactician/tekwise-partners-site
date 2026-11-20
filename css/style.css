@@ -146,7 +146,10 @@ section { padding: 72px 0; }
 .affiliates { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 .affiliate { padding: 22px 24px; background: #fff; border-left: 3px solid var(--blue); box-shadow: 0 1px 3px rgba(0,0,0,.05); }
 .affiliate strong { display: block; font-weight: 500; color: var(--heading); }
-.affiliate span { color: var(--muted); font-size: .88rem; }
+.affiliate span { color: var(--muted); font-size: .88rem; display: block; }
+a.affiliate { text-decoration: none; color: inherit; transition: box-shadow .2s, transform .2s; }
+a.affiliate:hover { box-shadow: 0 8px 22px rgba(0,55,99,.12); transform: translateY(-2px); }
+.affiliate em { display: block; margin-top: 10px; font-style: normal; font-size: .85rem; font-weight: 500; color: var(--blue); }
 
 /* Footer */
 .site-footer { background: #1d2733; color: #b9c1cb; padding: 52px 0 30px; font-size: .88rem; }
