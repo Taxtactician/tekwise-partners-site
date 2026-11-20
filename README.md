@@ -4,7 +4,7 @@ Static site for Tekwise Partners LLC, hosted on GitHub Pages.
 
 ## Pages
 - `index.html` — home page (services, workshops teaser, affiliates, contact)
-- `estate-planning.html` — estate planning workshops and the I-Decide tool
+- `estate-planning.html` — estate planning workshops and the Estate Planning Checkup
 - `css/style.css` — all styling; brand colors are the variables at the top
 
 ## Publishing on GitHub Pages
